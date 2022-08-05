@@ -1,0 +1,39 @@
+li{
+    display: inline; 
+ }
+ 
+ nav {background-color:gainsboro;
+ }
+ 
+ li{
+     display: inline;
+     padding: 20px;
+ }
+ 
+ a{
+ text-decoration: none;
+ }
+ h1{
+    background-color:gainsboro;
+ }
+ h2{
+    background-color: rgb(188, 229, 188);
+ }
+ p{
+    background-color: rgb(213, 252, 226);
+ }
+ h3{
+    background-color: rgb(244, 181, 224);
+ }
+ p2{
+    background-color: rgb(253, 216, 247); float: ;
+ }
+ h4{
+    background-color: rgb(203, 161, 242);
+ }
+ p3{
+background-color: rgb(238, 220, 255);
+ }
+ img{
+    float: right; 
+ }
