@@ -1,0 +1,39 @@
+
+body{
+
+
+    height: 1500px;
+    position: relative;
+}
+ul{
+    display:flex;
+    justify-content:center;
+}
+li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blueviolet;
+    padding: 10px;
+}
+ nav{
+    background-color: aqua;
+    position:fixed;
+    width:100%;
+    padding:10px
+ }
+ #home {
+    margin-right: auto;
+ }
+
+ 
+ 
+
+ 
+ 
+ 
