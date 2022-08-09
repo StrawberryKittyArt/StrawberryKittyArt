@@ -1,0 +1,47 @@
+ul{
+    display:flex;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blueviolet;
+    padding: 10px;
+}
+ nav{
+    background-color:burlywood;
+    padding: 10px;
+ }
+ #home {
+    margin-right: auto;
+ }
+
+ .dropdown-menu 
+{
+    position: absolute;
+    width: 50%;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: rgb(218, 107, 107);
+    flex-direction: column;
+}
+
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    
+  
+}
+
+
+
+ /* Media Query*/
+ @media only screen and 
+    (max-width: 768px) {
+    ul{
+        flex-direction: column;
+    }}
