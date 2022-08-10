@@ -10,11 +10,11 @@ a{
     text-decoration: none;
 }
 a:hover{
-    background-color: blueviolet;
+    background-color: rgb(217, 182, 251);
     padding: 10px;
 }
  nav{
-    background-color:burlywood;
+    background-color:rgb(152, 104, 134);
     padding: 10px;
  }
  #home {
@@ -29,6 +29,7 @@ a:hover{
     transition: 0.5s;
     background-color: rgb(218, 107, 107);
     flex-direction: column;
+    border-radius: 10%;
 }
 
 .dropdown:hover .dropdown-menu{
