@@ -1,0 +1,46 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body{
+    font-family: 'Aboreto', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 50px;
+}
+
+table {
+    border-bottom: solid 3px rgb(46, 98, 165);
+    border-radius:  5px
+    /*border-spacing:0;*/
+    border-collapse:collapse;
+    text-align:left
+}
+
+*green{
+    background-color: rgb(182, 202, 220);
+    padding: 10px;
+    color: white;
+}
+td, th {
+    padding:10px
+}
+tr:nth-child(3){
+background-color: rgb(207, 201, 194);
+color: rgb(0, 177, 118);
+}
+
+tr:nth-child(1){
+    background-color: rgb(88, 228, 140);
+    color: rgb(0, 0, 0);
+    }
+
+    tr:nth-child(4){
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        }
+        tr:nth-child(2){
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            }
