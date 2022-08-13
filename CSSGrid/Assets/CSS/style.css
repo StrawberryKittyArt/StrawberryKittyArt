@@ -15,25 +15,29 @@
 
 
 header{
-     
+    padding: 5px;
     grid-area: head;
     background-color: rgb(208, 208, 255);
 }
 
 
 nav {
+    padding: 5px;
     grid-area: nav;
     background-color: rgb(146, 109, 182);
+    list-style: none;
 }
 
 
 main{
+    padding: 10px;
     grid-area: main;
     background-color: rgb(173, 173, 246);
 }
 
 
 footer{
+    padding: 5px;
     grid-area: foot;
     background-color: rgb(131, 127, 255);
 }
