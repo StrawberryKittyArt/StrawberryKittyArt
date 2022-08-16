@@ -1,0 +1,17 @@
+body{
+    background-image:url("https://i.pinimg.com/originals/df/39/eb/df39eb5d82c5591ffe93029978d80bc9.jpg")
+
+    
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 10px solid green;
+}
+
+body{
+    color: azure;
+}

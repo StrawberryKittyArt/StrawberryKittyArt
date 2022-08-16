@@ -1,0 +1,25 @@
+body{
+    background-image:url("https://elvisbiography.files.wordpress.com/2018/09/paul-holding-magazine.jpg?w=900")
+
+    
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+body{
+    color: rgb(0, 0, 0); text-shadow: 5px black;
+}
+
+div{
+    background-color: aliceblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center
+   
+}
