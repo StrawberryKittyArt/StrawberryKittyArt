@@ -1,0 +1,28 @@
+body{
+background-image: url("https://thumbs.gfycat.com/VigorousNearAzurewingedmagpie-size_restricted.gif");
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+form{
+    background-color: rgb(229, 255, 246);
+    padding: 10px;
+    text-align: center;
+}
+button{
+    background-color: rgb(56, 56, 255);
+   
+}
+h1{
+    
+}
+h1{
+    color: rgb(255, 255, 255); 
+}
+p{
+    color: rgb(255, 255, 255); 
+}
