@@ -26,3 +26,16 @@ button{
 p1{ background-color: rgb(206, 233, 255);
     
 }
+body{
+    margin: 30px;
+}
+.my-container {
+    border: 1px solid rgb(211, 57, 83)
+  }
+  .my-row{
+    border: 3px solid rgb(132, 7, 28)
+  }
+  .my-col{
+    border: 3px dotted rgb(72, 14, 24)
+  }
+  
