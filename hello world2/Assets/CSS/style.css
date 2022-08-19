@@ -1,0 +1,32 @@
+div{
+    background-color: rgb(255, 227, 227);
+}
+body{
+    background-image: url("https://media1.giphy.com/media/3o7buijTqhjxjbEqjK/giphy.gif");
+}
+ul{
+    display:flex;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blueviolet;
+    padding: 10px;
+}
+ nav{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+ }
+ #home {
+    margin-right: auto;
+ }
+ h1{
+    color: aliceblue;
+ }
+ 
