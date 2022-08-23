@@ -39,3 +39,11 @@ body{
     border: 3px dotted rgb(72, 14, 24)
   }
   
+
+ 1div{ .grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+
+
+ }
+
+
