@@ -1,0 +1,8 @@
+
+console.log( 'Helo');
+
+function sayHello() {
+    alert('Hi');
+}
+
+sayHello();

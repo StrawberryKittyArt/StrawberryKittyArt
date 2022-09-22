@@ -1,0 +1,15 @@
+#room{
+    border:5px solid purple;
+  position: relative;
+}
+
+#ball{
+    display:flex;
+    align-items: center;
+    background-color: pink;
+    border-radius: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    justify-content: center;
+}

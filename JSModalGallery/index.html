@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <title>JSModalGallery</title>
+</head>
+<body>
+    
+<!-- Image Container-->
+   
+<div id="Container">
+    <h2>Album Cover Gallery</h2>
+<!-- Images (duplicate class name need for the 'for' loop) -->
+    <a href="#"><img src="Assets/imgs/albumcovers/album cover 1.jpeg">
+    <a href="#"><img src="Assets/imgs/albumcovers/album cover 2.jpeg">
+    <a href="#"><img src="Assets/imgs/albumcovers/album cover 3.jpeg">
+    <a href="#"><img src="Assets/imgs/albumcovers/album cover 4.jpeg">
+</div>
+
+<!--Modal with x button-->
+<div class="modal" id="myModal">
+    <span id ="close">&times;</spans>
+    <img class="modal-content" id="modalImg"> 
+
+</div>
+
+
+
+    <script src="Assets/JS/Modal.js"></script>
+</body>
+</html>

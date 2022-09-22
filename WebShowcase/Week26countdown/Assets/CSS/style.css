@@ -1,0 +1,10 @@
+body{
+    margin:0;
+    background-color: blueviolet;
+}
+#hero {
+diplay: flex;
+justify-content: center;
+height: 100vh;
+
+}
