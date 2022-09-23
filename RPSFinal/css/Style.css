@@ -1,0 +1,136 @@
+
+body {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+button {
+  background: linear-gradient(to bottom, skyblue, teal);
+  border: 0;
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 150px;
+  color: white;
+  margin: 24px 12px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button:active {
+  background: linear-gradient(to top, skyblue, teal);
+}
+button:focus-visible {
+  outline: 0;
+}
+#popupContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#popupContainer.popped {
+  display: flex;
+}
+#overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #000022;
+  opacity: 0.8;
+  z-index: 10;
+}
+#popup {
+  background: white;
+  border-radius: 36px;
+  padding: 36px 24px 72px;
+  position: relative;
+  z-index: 15;
+}
+#game {
+  max-width: 800px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#duel {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+#left,
+#right {
+  width: 30%;
+}
+#left {
+  transform-origin: -75%;
+}
+#right {
+  transform-origin: 175%;
+}
+
+#game.animate #left {
+  animation: leftShake 2s;
+}
+#game.animate #right {
+  animation: rightShake 2s;
+}
+
+@keyframes leftShake {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  30%, 62%, 94% {
+    transform: rotate(-20deg);
+  }
+  37%, 69% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes rightShake {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  30%, 62%, 94% {
+    transform: rotate(20deg);
+  }
+  37%, 69% {
+    transform: rotate(-10deg);
+  }
+}
+
+#rockLeft,
+#paperLeft,
+#scissorsLeft,
+#rockRight,
+#paperRight,
+#scissorsRight,
+#game.animate #paperLeft,
+#game.animate #scissorsLeft,
+#game.animate #paperRight,
+#game.animate #scissorsRight{
+  display: none;
+  width: 100%;
+}
+
+#game.animate #selections,
+#game.animate #result,
+#game.animate #playAgain {
+  visibility: hidden;
+}
+
+#game.animate #rockLeft,
+#game.animate #rockRight,
+#rockLeft.selected,
+#paperLeft.selected,
+#scissorsLeft.selected,
+#rockRight.selected,
+#paperRight.selected,
+#scissorsRight.selected {
+  display: block;
+}
