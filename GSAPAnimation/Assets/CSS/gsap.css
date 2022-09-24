@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(255, 117, 117);
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.animation-container {
+  width: 85%;
+  margin: 10% auto;
+  display: flex;
+}
+
+.column {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  width: 70%;
+}
+
+.text-box h2 {
+  font-size: 5rem;
+}
+
+.explore {
+  letter-spacing:5px;
+  font-size: 6rem;
+}
+
+/* Animation Elements */
+.chucked {
+  height: 100px;
+  width: 100px;
+ background-color: blueviolet;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+
+
+
