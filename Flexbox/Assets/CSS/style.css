@@ -1,5 +1,5 @@
 nav{
-    background-color: aquamarine;
+    background-color: rgb(47, 128, 101);
 }
 
 li{
@@ -8,7 +8,7 @@ li{
 }
 
 a:hover {
-    background-color: blueviolet;
+    background-color: rgb(195, 131, 255);
     padding: 10px;
 }
 
