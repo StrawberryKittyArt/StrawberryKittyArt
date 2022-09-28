@@ -57,7 +57,7 @@ function setUp() {
   }
 }
 
-//let yourPick = PAPER;
+
 
 function playGame(yourPick) {
   let myPick = getRandomPick();
